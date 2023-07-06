@@ -1,0 +1,122 @@
+@import 'color-var', 'fonts-var';
+
+
+@media (min-width: 768px) {
+    .intro {
+        margin-top: 46px;
+    }
+}
+
+@media (min-width: 1240px) {
+    .intro {
+        margin-top: 112px;
+    }
+}
+
+
+.intro__flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro__photo {
+    margin: 0 auto;
+}
+.intro__photo-round {
+    margin: 0 auto;
+    display: none;
+}
+
+@media (min-width: 697px) {
+    .intro__photo {
+        margin: 0 auto;
+        display: none;
+    }
+    .intro__photo-round {
+        display: block;
+        order: 1;      
+        
+        margin: 0 auto;
+
+        width: 45%;
+        height: auto;
+    }
+}
+@media (min-width: 1240px) {
+    .intro__photo {
+        margin: 0 auto;
+        display: none;
+    }
+    .intro__photo-round {
+        display: block;
+        order: 1;      
+        
+        margin: 0 auto;
+
+        width: 440px;
+        height: auto;
+    }
+}
+
+
+
+.intro__text-wrap {
+    margin: 0 auto;
+}
+.intro__title {
+    font-size: 32px;
+    line-height: auto;
+    font-weight: 700;
+    color: $main-white;
+}
+.intro__text {
+    font-size: 18px;
+    line-height: auto;
+    font-weight: 400;
+    color: $text-grey;
+}
+.intro__download {
+    display: inline-block;
+    width: 143px;
+    // height: 42px;
+    background-color: $main-black;
+    border: 1px solid $main-white;
+
+    padding-top: 12px;
+    padding-bottom: 13px;
+
+    text-decoration: none;
+    color: $main-white;
+    font-size: 14px;
+    line-height: auto;
+    text-align: center;
+}
+.intro__download:hover {
+    background-color: $light-grey;
+    color: $main-black;
+    transition: 0.5s;
+}
+
+.intro__my-works {
+    display: inline-block;
+    width: 143px;
+    // height: 42px;
+    background-color: $main-black;
+    border: 1px solid $main-white;
+
+    padding-top: 12px;
+    padding-bottom: 13px;
+
+    text-decoration: none;
+    color: $main-white;
+    font-size: 14px;
+    line-height: auto;
+    text-align: center;
+}
+.intro__my-works:hover {
+    background-color: $light-grey;
+    color: $main-black;
+    transition: 0.5s;
+}

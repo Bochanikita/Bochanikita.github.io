@@ -1,0 +1,75 @@
+@import 'color-var', 'fonts-var';
+
+.feedback {
+    margin-top: 46px;
+}
+@media (min-width: 768px) {
+    .feedback {
+        margin-top: 46px;
+    }
+}
+
+@media (min-width: 1240px) {
+    .feedback {
+        margin-top: 112px;
+    }
+}
+
+
+.feedback__title {
+    font-size: 32px;
+    line-height: auto;
+    font-weight: 700;
+    color: $main-white;
+    text-align: center;
+}
+.feedback__form {
+    max-width: 686px;
+    margin: 0 auto;
+}
+.feedback__input {
+    min-width: 330px;
+    height: 30px;
+
+    margin-bottom: 20px;
+
+    background-color: $main-bg;
+    border: none;
+    border-bottom: 1px solid $spec-grey;
+    color: $main-white;
+}
+.feedback__input_message {
+    width: 100%;
+    height: 80px;
+
+    border: 1px solid $spec-grey;
+}
+
+.feedback__input::placeholder {
+    font-size: 14px;
+    line-height: auto;
+    font-weight: 700;
+    color: $text-grey;
+}
+
+.feedback__submit {
+    display: block;
+    width: 143px;
+    background-color: $main-black;
+    border: 1px solid $main-white;
+
+    padding-top: 12px;
+    padding-bottom: 13px;
+    margin: 0 auto;
+    margin-top: 25px;
+
+    color: $main-white;
+    font-size: 14px;
+    line-height: auto;
+    text-align: center;
+}
+.feedback__submit:hover {
+    background-color: $light-grey;
+    color: $main-black;
+    transition: 0.5s;
+}

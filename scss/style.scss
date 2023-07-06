@@ -1,0 +1,40 @@
+@import 'color-var', 'fonts-var', 'header', 'intro', 'about', 'dirrection', 'skills', 'feedback', 'footer', 'my-works';
+
+.page {
+    min-width: 380px;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: $main-bg;
+
+    font-family: $main-font;
+}
+
+.page-body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: auto;
+    padding: 0 20px;
+}
+
+.visually-hiden {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .content {
+        width: auto;
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 1240px) {
+    .content {
+        width: auto;
+        padding: 0 120px;
+    }
+}
