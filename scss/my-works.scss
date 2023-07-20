@@ -48,6 +48,9 @@
         font-weight: 400;
         color: $main-white;
     }
+    .my-works__link {
+        color: $main-white;
+    }
 }
 @media (min-width: 768px) {
     .my-works {
@@ -99,6 +102,9 @@
         font-weight: 400;
         color: $main-white;
     }
+    .my-works__link {
+        color: $main-white;
+    }
 }
 @media (min-width: 1240px) {
     .my-works {
@@ -148,6 +154,9 @@
         font-size: 12px;
         line-height: 30px;
         font-weight: 400;
+        color: $main-white;
+    }
+    .my-works__link {
         color: $main-white;
     }
 }
